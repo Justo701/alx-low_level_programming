@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main function  a program that picks a random number
+ * main - prints if a number is positive, negative or 0
  * Return: 0
  */
 int main(void)
@@ -11,17 +11,18 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+
 	if (n > 0)
 	{
 		printf("%d is positive\n", n);
 	}
-	if (n == 0)
+	else if (n == 0)
 	{
 		printf("%d is zero\n", n);
 	}
-	if (n < 0)
+	else
 	{
-		printf("%d is negative\n", n);
+		printf("%d is zero\n", n);
 	}
 	return (0);
 }
