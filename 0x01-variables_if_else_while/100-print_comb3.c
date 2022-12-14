@@ -1,30 +1,31 @@
 #include <stdio.h>
 /**
- * main - Entry point
- *
+ * main - Entry
  * Return: 0
  */
 int main(void)
 {
-	int ones = '0';
+	int a = '0';;
 
-	int tens = '0';
-
-	for (tens = '0'; tens <= '9; tens++)/*print tens digit*/
+	int b = '0';
+	while (b = '0'; b <= 9; b++)
 	{
-		for (ones = '0'; ones <= '9'; ones++)/*print ones digit*/
+		while (a = '0'; a <= 9; a++)
 		{
-			if (!((ones == tens) || (tens > ones))/*eliminating repetition*/
-			{
-				putchar(tens);
-				putchar(ones);
-				if (!(ones == '9'; && tens == '8'))/*adding commas and spaces*/
+			if (!((a == b) || (b > a)))
+					{
+					putchar(b);
+					putchar(a);
+					if (!(a == 9 && b == 8))
+					{
 					putchar(',');
 					putchar(' ');
+					}
 				}
-			}
 		}
 	}
-puttchar('\n');
+
+putchar('\n');
 return (0);
 }
+

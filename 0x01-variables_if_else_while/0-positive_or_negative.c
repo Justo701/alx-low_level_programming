@@ -3,6 +3,7 @@
 #include <time.h>
 /**
  * main function  a program that picks a random number
+ * Return: 0
  */
 int main(void)
 {
@@ -23,4 +24,4 @@ int main(void)
 		printf("%d is negative\n", n);
 	}
 	return (0);
-}	
+}
