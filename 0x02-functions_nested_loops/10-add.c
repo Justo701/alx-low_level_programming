@@ -7,9 +7,9 @@
  */
 int add(int a, int b)
 {
-	int a;
+	int a,
 
-	int b;
+	int b,
 
 	return (a + b);
 }
