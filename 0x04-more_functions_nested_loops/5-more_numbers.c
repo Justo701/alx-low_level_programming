@@ -2,7 +2,6 @@
 
 /**
  * more_numbers - print numbers 0 to 9
- *
  * Return: void
  */
 
