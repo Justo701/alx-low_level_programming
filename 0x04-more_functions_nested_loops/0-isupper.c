@@ -1,7 +1,7 @@
 #nclude "main.h"
 
 /**
- * _isupper - checks uppercase character
+ * _isupper - uppercaswle letters
  * @c: character to be checked
  *
  * Return: 1 or 0
