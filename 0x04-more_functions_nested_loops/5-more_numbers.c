@@ -2,7 +2,7 @@
 
 /**
  * more_numbers - print numbers 0 to 9
- * Return: void
+ * Return: Numbers 0 to 9, 10 times.
  */
 void more_numbers(void)
 {
