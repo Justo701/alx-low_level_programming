@@ -3,7 +3,7 @@
 
 /**
  * print_number - print an integer
- * @n: tge integer to print
+ * @n: the integer to print
  * Return: nothing
  */
 
