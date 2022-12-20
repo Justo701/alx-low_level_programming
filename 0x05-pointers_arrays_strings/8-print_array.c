@@ -3,8 +3,8 @@
 
 /**
  * print_array - print n elements of an array
- * @a: point to array
- * @n: number of array elements
+ * @a: point to an array
+ * @n: number of elements in array
  * Return: void
  */
 
@@ -20,6 +20,6 @@ void print_array(int *a, int n)
 	printf(",");
 	printf(" ");
 	}
-	printf("\n");
 	}
+	printf("\n");
 }
