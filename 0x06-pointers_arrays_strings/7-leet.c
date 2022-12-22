@@ -15,8 +15,11 @@ char *leet(char *n)
 	{
 	for (j = 0; j < 10; j++)
 	{
+	if (n[i] == s1[i])
+	{ 
 	n[i] = s2[j];
 	}
 	}
+	}
 	return (n);
-}
+}	
