@@ -9,6 +9,7 @@
 int main(int argc, char **argv)
 {
 	int arr_len = argc - 1;
+
 	if (arr_len != 2)
 	{
 	puts("Error");
