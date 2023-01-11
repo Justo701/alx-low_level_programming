@@ -9,14 +9,14 @@ int get_str_len(char *str)
 	int i;
 
 	for (i = 0; str[i] != '\0'; i++)
-		;
+	;
 	return (i + 1);
 }
 /**
  * str_concat - join two strings
  * @s1: first string
  * @s2: second string
- * Return: string
+ * Return: concatenated string else NULL
  */
 char *str_concat(char *s1, char *s2)
 {
