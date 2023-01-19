@@ -2,6 +2,7 @@
 #include <stdio.h>
 /**
  * print_name - print name to function
+ * @name: name to add
  * @f: pointer to function
  * Return: nothing
  */
