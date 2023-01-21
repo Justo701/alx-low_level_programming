@@ -32,8 +32,10 @@ int op_sub(int a, int b)
  */
 int op_mul(int a, int b)
 {
-	int (a * b);
+	return (a *b);
 }
+
+
 /**
  * op_div - Returns division of two numbers
  * @a: first number
