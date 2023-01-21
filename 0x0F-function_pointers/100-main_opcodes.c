@@ -9,7 +9,7 @@
 int main(int argc, char *argv[])
 {
 	int bytes, i;
-	chat *arr;
+	char *arr;
 
 	if (argc != 2)
 	{
