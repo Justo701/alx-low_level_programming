@@ -1,4 +1,5 @@
 #include "hash_tables.h"
+
 /**
  * hash_table_get - Retrieve the value associated with
  *                  a key in a hash table.
@@ -26,3 +27,4 @@ char *hash_table_get(const hash_table_t *ht, const char *key)
 
 	return ((node == NULL) ? NULL : node->value);
 }
+
